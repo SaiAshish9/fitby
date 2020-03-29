@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/fitby/static/css/main.ef8506fe.chunk.css",
+    "main.js": "/fitby/static/js/main.22217356.chunk.js",
+    "main.js.map": "/fitby/static/js/main.22217356.chunk.js.map",
+    "runtime-main.js": "/fitby/static/js/runtime-main.1b32d580.js",
+    "runtime-main.js.map": "/fitby/static/js/runtime-main.1b32d580.js.map",
+    "static/js/2.0b0a8ee8.chunk.js": "/fitby/static/js/2.0b0a8ee8.chunk.js",
+    "static/js/2.0b0a8ee8.chunk.js.map": "/fitby/static/js/2.0b0a8ee8.chunk.js.map",
+    "index.html": "/fitby/index.html",
+    "precache-manifest.4fcb81a1493b74ca3a02b2ce721791c5.js": "/fitby/precache-manifest.4fcb81a1493b74ca3a02b2ce721791c5.js",
+    "service-worker.js": "/fitby/service-worker.js",
+    "static/css/main.ef8506fe.chunk.css.map": "/fitby/static/css/main.ef8506fe.chunk.css.map",
+    "static/js/2.0b0a8ee8.chunk.js.LICENSE.txt": "/fitby/static/js/2.0b0a8ee8.chunk.js.LICENSE.txt",
+    "static/media/demo.png": "/fitby/static/media/demo.25a82fd4.png",
+    "static/media/logo.png": "/fitby/static/media/logo.f8c9918d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b32d580.js",
+    "static/js/2.0b0a8ee8.chunk.js",
+    "static/css/main.ef8506fe.chunk.css",
+    "static/js/main.22217356.chunk.js"
+  ]
+}
