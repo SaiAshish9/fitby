@@ -1,0 +1,17 @@
+@media only screen and (max-width:1160px){
+    .demo{
+        display:none
+    }
+}
+
+@media only screen and (max-width:650px){
+ 
+    body{
+        background-image:url('./demo.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        overflow: hidden;
+        height:100vh ;
+    }
+}
