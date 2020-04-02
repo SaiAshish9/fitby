@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Logo from './logo.png'
+import Logo from './logo1.png'
 
 import Icons from '../../constants/social-icons'
 
