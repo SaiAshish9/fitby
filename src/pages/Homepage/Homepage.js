@@ -8,7 +8,7 @@ import First from '../../components/First/First'
 
 const Homepage = () => {
     return (
-        <div>
+        <div style={{width:'100%',overflowX:'hidden'}}>
             <Navbar/>
             <Carousel/>
             <First/>

@@ -2,6 +2,7 @@
   "name": "fitsby",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://saiashish9.github.io/fitby",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "gh-pages": "^2.2.0",
