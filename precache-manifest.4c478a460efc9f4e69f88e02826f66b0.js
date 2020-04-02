@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "587bd31185fbc8b14ed6efe4e91a474e",
+    "revision": "052f37096c109a215ac7d84fd98c80c9",
     "url": "/fitby/index.html"
   },
   {
-    "revision": "a3ad19bc45b0eba16200",
+    "revision": "f61d0f182e5444be66e5",
     "url": "/fitby/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "a3ad19bc45b0eba16200",
-    "url": "/fitby/static/js/2.6338497c.chunk.js"
+    "revision": "312444f7bc974a0d12fe",
+    "url": "/fitby/static/css/main.640c74b1.chunk.css"
+  },
+  {
+    "revision": "f61d0f182e5444be66e5",
+    "url": "/fitby/static/js/2.fc78ff40.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/fitby/static/js/2.6338497c.chunk.js.LICENSE.txt"
+    "url": "/fitby/static/js/2.fc78ff40.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3787d06da0513f1283cc",
-    "url": "/fitby/static/js/main.ef373fce.chunk.js"
+    "revision": "312444f7bc974a0d12fe",
+    "url": "/fitby/static/js/main.040224fd.chunk.js"
   },
   {
     "revision": "3aeea529a55e47dfeaf8",
@@ -38,9 +42,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ab5d00e518b1dd9de6e97cc3402f1692",
     "url": "/fitby/static/media/fitby.ab5d00e5.jpg"
-  },
-  {
-    "revision": "f8c9918d06be145bc615f4114f05a3a1",
-    "url": "/fitby/static/media/logo.f8c9918d.png"
   }
 ]);
