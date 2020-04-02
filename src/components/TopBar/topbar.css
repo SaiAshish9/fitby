@@ -1,7 +1,21 @@
 
 
 @media only screen and (max-width:500px){
-    .phone{
-        display: none;
+  
+  
+    .phone {
+        position:absolute;
+        margin-left:10px;
     }
+
+    .address {
+        display: none;
+        margin-left:10px;
+    }
+
+
+
 }
+
+
+

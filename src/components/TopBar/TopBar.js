@@ -10,7 +10,7 @@ const TopBar = () => {
             
 <div  style={{height:'4vh',width:'100%',background:'#f4f4f4',display:'flex',alignItems:'center',justifyContent:'space-between'}}>
 
-<h6 style={{ marginLeft:'1%',marginTop:10,color:'#F18F0E',display:'inline'}}> 
+<h6 className="address" style={{ marginLeft:'1%',marginTop:10,color:'#F18F0E'}}> 
 tonyStark@gmail.com
 </h6>
 
