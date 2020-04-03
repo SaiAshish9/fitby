@@ -1,6 +1,7 @@
 {
   "name": "fitsby",
   "version": "0.1.0",
+  "homepage": "https://saiashish9.github.io/fitsby",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.4.1",
