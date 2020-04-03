@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ee4e7aec5008f924130bcfef58ee8bfa",
+    "revision": "7c4e7500c702f058b3a58a898fd98acb",
     "url": "/fitsby/index.html"
   },
   {
-    "revision": "f61d0f182e5444be66e5",
+    "revision": "ab6822460268e397fbfb",
     "url": "/fitsby/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "6df383153a9857ef64b0",
+    "revision": "1f9aef4193885cb926d9",
     "url": "/fitsby/static/css/main.15088706.chunk.css"
   },
   {
-    "revision": "f61d0f182e5444be66e5",
-    "url": "/fitsby/static/js/2.fc78ff40.chunk.js"
+    "revision": "ab6822460268e397fbfb",
+    "url": "/fitsby/static/js/2.e9ad5580.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/fitsby/static/js/2.fc78ff40.chunk.js.LICENSE.txt"
+    "url": "/fitsby/static/js/2.e9ad5580.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6df383153a9857ef64b0",
-    "url": "/fitsby/static/js/main.2abaa7f0.chunk.js"
+    "revision": "1f9aef4193885cb926d9",
+    "url": "/fitsby/static/js/main.3082f644.chunk.js"
   },
   {
     "revision": "e47521acece3c71d90f4",
