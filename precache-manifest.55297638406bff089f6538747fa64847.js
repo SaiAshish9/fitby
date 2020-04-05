@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d46fedc3fedc263637da22e1c13e5a77",
+    "revision": "b15b9b2cf4faa19bcf33c35e63fd789a",
     "url": "/fitby/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fitby/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "d7073f536f5b31bd3b15",
+    "revision": "08a39089e43b2e3047d0",
     "url": "/fitby/static/css/main.15088706.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fitby/static/js/2.c9632a29.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d7073f536f5b31bd3b15",
-    "url": "/fitby/static/js/main.0b86e552.chunk.js"
+    "revision": "08a39089e43b2e3047d0",
+    "url": "/fitby/static/js/main.64e9cbdf.chunk.js"
   },
   {
     "revision": "3aeea529a55e47dfeaf8",
