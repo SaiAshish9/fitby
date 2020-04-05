@@ -27,7 +27,7 @@ const data=[
 
 
     return (
-        <div style={{minHeight:'40vh',background:'black',padding:20}}>
+        <div style={{ overflowY: 'hidden',minHeight:'40vh',background:'black',padding:20}}>
 
 
 <h1 style={{color:'white',textAlign:'center'}} >
@@ -38,18 +38,18 @@ const data=[
 </h1>
 
 
-<div className="row" style={{width:'100%',marginTop:'10vh'}}>
+<div style={{width:'100%',display:'flex',justifyContent:'space-around',flexWrap:'wrap',alignItems:'center',marginTop:'20vh'}}>
 
 {
     data.map((data,i)=>(
 
 
-<div className="col-md-4" style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',textAlign:'center'}}> >
+<div style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',textAlign:'center',height:'45vh'}}> >
 
 <a href="https://google.com/" target="_blank" rel="noopener referrer" style={{textDecoration:'none'}} >
 
 
-<img src={C2} style={{ position: 'relative',zIndex:'0',width:'90%', textAlign:'center',margin:'auto',cursor:'pointer'}} />
+<img src={C2} style={{ position: 'relative',zIndex:'0',width:'24rem', textAlign:'center',margin:'auto',cursor:'pointer'}} />
 
 
 <p style={{ minWidth:'100px',marginRight:10,  position:'relative', left:'8%',textAlign:'center',  bottom:'160px',width:'5vw',zIndex:1, background: 'black',color:'white',borderRadius:10}} >

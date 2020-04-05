@@ -13,7 +13,7 @@ const Slider = () => {
     return (
         <div>
      
-     <Carousel style={{marginTop:10,height:'30vh'}}>
+     <Carousel style={{marginTop:0,height:'30vh'}}>
   <Carousel.Item style={{height:'30vh'}}>
     <img
       className=" w-100"

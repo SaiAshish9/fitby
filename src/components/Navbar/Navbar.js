@@ -6,20 +6,15 @@ import Logo from './logo1.png'
 
 
 const Navbar = () => {
-    return (
-        <div style={{width:'100%',minHeight:'10vh'}}>
-            
+    return <TopBar/>
 
-<TopBar/>
-
-<div style={{width:'100%',height:'height:7vh'}}>
+{/* <div style={{width:'100%',height:'height:7vh'}}>
 
 <img src={Logo}  style={{margin:10,width:'5rem'}} />
 
-</div>
+</div> */}
 
-        </div>
-    )
+    
 }
 
 export default Navbar
