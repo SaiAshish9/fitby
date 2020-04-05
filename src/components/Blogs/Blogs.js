@@ -38,34 +38,33 @@ const data=[
 </h1>
 
 
-<div style={{width:'100%',display:'flex',justifyContent:'space-around',flexWrap:'wrap',alignItems:'center',marginTop:'20vh'}}>
+<div style={{display:'flex',justifyContent:'space-around',flexWrap:'wrap',alignItems:'center',marginTop:'10vh',padding:20}}>
 
 {
     data.map((data,i)=>(
 
 
-<div style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',textAlign:'center',height:'45vh'}}> >
+<div style={{minWidth:'45vh',display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',textAlign:'center',height:'45vh',backgroundImage:`url(${C2})`,backgroundSize:'contain',backgroundPosition:'center',backgroundRepeat:'no-repeat',cursor:'pointer'}}> 
 
 <a href="https://google.com/" target="_blank" rel="noopener referrer" style={{textDecoration:'none'}} >
 
 
-<img src={C2} style={{ position: 'relative',zIndex:'0',width:'24rem', textAlign:'center',margin:'auto',cursor:'pointer'}} />
 
 
-<p style={{ minWidth:'100px',marginRight:10,  position:'relative', left:'8%',textAlign:'center',  bottom:'160px',width:'5vw',zIndex:1, background: 'black',color:'white',borderRadius:10}} >
+<p style={{ padding:3,display:'inline', marginLeft:'-40%',background: 'black',color:'white',borderRadius:10,marginRight:10}} >
     Fitness
 </p>
 
-<p style={{minWidth:'120px', position:'relative', left:150,textAlign:'center',  bottom:'200px',width:'7vw',zIndex:1, background: 'black',color:'white',borderRadius:10}} >
+<p style={{ padding:3, display:'inline',textAlign:'center', background: 'black',color:'white',borderRadius:10}} >
 Yoga Practice
 </p>
 
-<h3 style={{color:'white',width:200,textAlign:'start',position:'relative',left:40,bottom:210}}>
+<h5 style={{color:'white',width:200,textAlign:'start',marginLeft:-10,marginTop:10}}>
 {data.desc}
-</h3>
+</h5>
 
 
-<p style={{color:'white',position:'relative',left:'-4%',bottom:220}} >
+<p style={{color:'white',marginLeft:-20}} >
 TRX_admin   __ <span style={{marginLeft:20}}>
 {data.date}
     </span>
