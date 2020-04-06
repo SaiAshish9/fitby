@@ -22,7 +22,7 @@ const Slider = () => {
     return (
         <div>
      
-     <Carousel style={{marginTop:0,minHeight:'30vh'}}>
+     <Carousel interval={3000} style={{marginTop:0,minHeight:'30vh'}}>
   
   <Carousel.Item style={{minHeight:'30vh'}}>
   <a href="https://www.google.com" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none',height:'50vh'}}> 
