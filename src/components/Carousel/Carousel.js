@@ -1,54 +1,96 @@
 import React from 'react'
 
+import './Carousel.css'
 
 import {Carousel} from 'react-bootstrap'
 
-import C1 from '../../assets/C1.jpg'
+import Mob1 from '../../assets/mob1.png'
 
-import C2 from '../../assets/C2.jpg'
+import Mob2 from '../../assets/mob2.png'
 
-import C3 from '../../assets/C3.jpg'
+import Mob3 from '../../assets/mob3.png'
+
+import Web1 from '../../assets/web1.png'
+
+import Web2 from '../../assets/web2.png'
+
+import Web3 from '../../assets/web3.png'
+
+
 
 const Slider = () => {
     return (
         <div>
      
-     <Carousel style={{marginTop:0,height:'30vh'}}>
-  <Carousel.Item style={{height:'30vh'}}>
+     <Carousel style={{marginTop:0,minHeight:'30vh'}}>
+  
+  <Carousel.Item style={{minHeight:'30vh'}}>
+  <a href="https://www.google.com" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none',height:'50vh'}}> 
+ 
     <img
-      className=" w-100"
-      src={C1}
-      style={{height:'30vh'}}
+      className="mob w-100"
+      src={Mob1}
+      style={{height:'60vh'}}
       alt="First slide"
     />
-    <Carousel.Caption>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item style={{height:'30vh'}}>
-    <img
-      className="d-block w-100"
-      src={C1}
-      style={{height:'30vh'}}
-      alt="Third slide"
+
+
+<img
+      className="web w-100"
+      src={Web1}
+      style={{height:'30vh',marginTop:10}}
+      alt="First slide"
     />
 
-    <Carousel.Caption>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </Carousel.Caption>
+      </a>
+
   </Carousel.Item>
-  <Carousel.Item style={{height:'30vh'}}>
+
+  <Carousel.Item style={{minHeight:'30vh'}}>
+  <a href="https://www.google.com" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none',height:'50vh'}}> 
+ 
     <img
-      className="d-block w-100"
-      src={C1}
-      style={{height:'30vh'}}
-      alt="Third slide"
+      className="mob w-100"
+      src={Mob2}
+      style={{height:'60vh'}}
+      alt="First slide"
     />
 
-    <Carousel.Caption>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </Carousel.Caption>
+
+<img
+      className="web  w-100"
+      src={Web2}
+      style={{height:'30vh',marginTop:10}}
+      alt="First slide"
+    />
+
+      </a>
+
   </Carousel.Item>
+
+
+  <Carousel.Item style={{minHeight:'30vh'}}>
+  <a href="https://www.google.com" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none',height:'50vh'}}> 
+ 
+    <img
+      className="mob w-100"
+      src={Mob3}
+      style={{height:'60vh'}}
+      alt="First slide"
+    />
+
+
+<img
+      className="web w-100"
+      src={Web3}
+      style={{height:'30vh',marginTop:10}}
+      alt="First slide"
+    />
+
+      </a>
+
+  </Carousel.Item>
+
 </Carousel>
        
         </div>

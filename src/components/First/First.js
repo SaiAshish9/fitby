@@ -9,7 +9,7 @@ const First = () => {
 
 <div className="container">
 
-<div className="container" style={{margin:'auto',textAlign:'center'}}>
+<div className="container" style={{marginTop:'10vh',textAlign:'center'}}>
 
 <input type="text" placeholder="Name" style={{margin:20,border:'2px solid #F18F0E ',padding:5,background:'#f4f4f4',width:'15rem'}} />
 
