@@ -57,7 +57,7 @@ Email
 Age
   </Dropdown.Toggle>
 
-  <Dropdown.Menu>
+  <Dropdown.Menu style={{fontFamily:"'Poppins', sans-serif"}}>
     <Dropdown.Item href="#/action-1">Less than 15 years</Dropdown.Item>
     <Dropdown.Item href="#/action-2"> Less than 35 And More than 15  </Dropdown.Item>
     <Dropdown.Item href="#/action-3">More than 35 years</Dropdown.Item>
