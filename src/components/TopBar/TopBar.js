@@ -8,13 +8,13 @@ const TopBar = () => {
     return (
         <div>
             
-<div  style={{height:'4vh',width:'100%',background:'black',display:'flex',alignItems:'center',justifyContent:'space-between'}}>
+<div  style={{padding:'1vh', height:'4vh',width:'100%',background:'black',display:'flex',alignItems:'center',justifyContent:'space-between'}}>
 
-<h6 className="address" style={{ marginLeft:'1%',marginTop:10,color:'white'}}> 
+<h6 className="address" style={{ marginLeft:'1%',marginTop:10,color:'white',fontFamily:" 'Poppins', sans-serif"}}> 
 care@fitby.in
 </h6>
 
-<h6 className='phone' style={{color:'white',textAlign:'center',margin:'auto'}}>
+<h6 className='phone' style={{color:'white',textAlign:'center',margin:'auto',fontFamily:" 'Poppins', sans-serif"}}>
     +91 - 7579440559
 </h6>
 

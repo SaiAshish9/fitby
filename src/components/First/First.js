@@ -21,39 +21,39 @@ const First = () => {
 <div className="col-md-6" style={{textAlign:'center'}} >
 
 
-<h4 style={{textAlign:'start',margin:'20px 0',color:'#F18F0E',textAlign:'center'}}>
+<h4 style={{textAlign:'start',margin:'20px 0',color:'#F18F0E',textAlign:'center',fontFamily:" 'Poppins', sans-serif"}}>
 BE FIT WITH US
 </h4>
 
 
-<label htmlFor="Name" style={{fontWeight:'bold',width:'40%',textAlign:'start'}} >
+<label htmlFor="Name" style={{fontWeight:'bold',width:'40%',textAlign:'start',fontFamily:" 'Poppins', sans-serif"}} >
 Name
 </label>
 
-<input type="text" placeholder="Name" style={{ margin:20,border:'2px solid #F18F0E ',padding:5,background:'#f4f4f4',width:'40%'}} />
+<input type="text" placeholder="Name" style={{ margin:20,border:'2px solid #F18F0E ',padding:5,background:'#f4f4f4',width:'40%',fontFamily:" 'Poppins', sans-serif"}} />
 
 <br/>
 
-<label htmlFor="Number" style={{fontWeight:'bold',width:'40%',textAlign:'start'}} >
+<label htmlFor="Number" style={{fontWeight:'bold',width:'40%',textAlign:'start',fontFamily:" 'Poppins', sans-serif"}} >
 Number
 </label>
 
 
-<input type="tel" placeholder="Number" style={{margin:20,border:'2px solid #F18F0E ',padding:5,background:'#f4f4f4',width:'40%'}} />
+<input type="tel" placeholder="Number" style={{margin:20,border:'2px solid #F18F0E ',padding:5,background:'#f4f4f4',width:'40%',fontFamily:" 'Poppins', sans-serif"}} />
 
 <br/>
-<label htmlFor="Email" style={{fontWeight:'bold',width:'40%',textAlign:'start'}} >
+<label htmlFor="Email" style={{fontWeight:'bold',width:'40%',textAlign:'start',fontFamily:" 'Poppins', sans-serif"}} >
 Email
 </label>
 
-<input type="email" placeholder="Email" style={{margin:20,border:'2px solid #F18F0E ',padding:5,background:'#f4f4f4',width:'40%'}} />
+<input type="email" placeholder="Email" style={{margin:20,border:'2px solid #F18F0E ',padding:5,background:'#f4f4f4',width:'40%',fontFamily:" 'Poppins', sans-serif"}} />
 
 
 <div style={{display:'flex',justifyContent:'space-around',alignItems:'center'}} >
 
 
 <Dropdown key="down" style={{width:'50%',padding:20,display:'inline'}} >
-  <Dropdown.Toggle variant="warning" id="dropdown-basic" style={{color:'white'}} >
+  <Dropdown.Toggle variant="warning" id="dropdown-basic" style={{color:'white',fontFamily:" 'Poppins', sans-serif"}} >
 Age
   </Dropdown.Toggle>
 
@@ -66,7 +66,7 @@ Age
 
 
 
-<Dropdown key="down" style={{width:'50%',display:'inline'}}>
+<Dropdown key="down" style={{width:'50%',display:'inline',fontFamily:" 'Poppins', sans-serif"}}>
   <Dropdown.Toggle variant="dark" id="dropdown-basic" style={{color:'white',boxOutline:'none',border:'none'}} >
 Goal
   </Dropdown.Toggle>
@@ -80,7 +80,7 @@ Goal
 
 
 
-<button className='btn btn-warning' style={{color:'white',width:'50%',textAlign:'center',margin:'2vh',display:'inline',height:'2.5rem'}}>
+<button className='btn btn-warning' style={{color:'white',width:'50%',textAlign:'center',margin:'2vh',display:'inline',height:'2.5rem',fontFamily:" 'Poppins', sans-serif"}}>
 <p>
 Get fit now
   </p>  
