@@ -58,9 +58,11 @@ Age
   </Dropdown.Toggle>
 
   <Dropdown.Menu style={{fontFamily:"'Poppins', sans-serif"}}>
-    <Dropdown.Item href="#/action-1">Less than 15 years</Dropdown.Item>
-    <Dropdown.Item href="#/action-2"> Less than 35 And More than 15  </Dropdown.Item>
-    <Dropdown.Item href="#/action-3">More than 35 years</Dropdown.Item>
+    <Dropdown.Item href="#/action-1">3-18 years</Dropdown.Item>
+    <Dropdown.Item href="#/action-1">18-25 years</Dropdown.Item>
+    <Dropdown.Item href="#/action-1">30-40 years</Dropdown.Item>
+    <Dropdown.Item href="#/action-1">40-50 years</Dropdown.Item>
+    <Dropdown.Item href="#/action-1">50+ years</Dropdown.Item>
   </Dropdown.Menu>
 </Dropdown>
 
