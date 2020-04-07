@@ -47,7 +47,19 @@ const Homepage = () => {
       arrowRight={ <FaRegArrowAltCircleRight size={40} />}
       arrowRightDisabled={'.'}
       addArrowClickHandler
-      slidesPerPage={2}
+      breakpoints={{
+        640: {
+          slidesPerPage: 1
+                },
+        1200: {
+          slidesPerPage: 2
+                },
+        1800:{
+            slidesPerPage: 3
+        }
+                
+      }}
+
 >
   <img src={C1} style={{width:'80%',height:'30vh',borderRadius:20}} />
   <img src={C2} style={{width:'80%',height:'30vh',borderRadius:20}} />
