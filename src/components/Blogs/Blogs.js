@@ -6,6 +6,11 @@ import C2 from '../../assets/C2.jpg'
 
 import './Blog.css'
 
+import Carousel from '@brainhubeu/react-carousel';
+
+import '@brainhubeu/react-carousel/lib/style.css';
+
+
 const Blogs = () => {
 
 
@@ -39,10 +44,33 @@ const data=[
 </h1>
 
 
-<div style={{display:'flex',justifyContent:'space-around',flexWrap:'wrap',alignItems:'center',marginTop:'1vh',padding:20}}>
+{/* <div style={{display:'flex',justifyContent:'space-around',flexWrap:'wrap',alignItems:'center',marginTop:'1vh',padding:20}}> */}
+
+<Carousel
+      
+      autoPlay={2000}
+      animationSpeed={1000}
+      infinite
+
+      breakpoints={{
+        640: {
+          slidesPerPage: 1
+                },
+        1200: {
+          slidesPerPage: 2
+                },
+        1800:{
+            slidesPerPage: 3
+        }
+                
+      }}
+
+>
 
 {
     data.map((data,i)=>(
+
+
 
 
 <div  style={{minWidth:'45vh',display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',textAlign:'center',height:'45vh',backgroundImage:`url(${C2})`,backgroundSize:'contain',backgroundPosition:'center',backgroundRepeat:'no-repeat',cursor:'pointer'}}> 
@@ -79,11 +107,13 @@ TRX_admin  __ <span style={{marginLeft:20,fontFamily:"'Poppins',sans-serif"}}>
 
 </div>
 
+
     ))
 }
 
+</Carousel>
 
-</div>
+{/* </div> */}
 
 
         </div>
