@@ -66,7 +66,7 @@ Yoga Practice
 
 
 <p style={{marginTop:10,color:'white',marginLeft:-30,fontFamily:"'Poppins',sans-serif"}} >
-TRX_admin   __ <span style={{marginLeft:20,fontFamily:"'Poppins',sans-serif"}}>
+TRX_admin  __ <span style={{marginLeft:20,fontFamily:"'Poppins',sans-serif"}}>
 {data.date}
     </span>
 </p>
