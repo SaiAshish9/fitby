@@ -11,9 +11,9 @@ const First = () => {
 <div className="container" style={{marginTop:'10vh'}}>
 
 <div style={{textAlign:'center',margin:'5vh'}}>
-<input type="text" placeholder="Name" style={{margin:20,border:'2px solid #F18F0E ',padding:5,background:'#f4f4f4',width:'40%',fontFamily:" 'Poppins', sans-serif",maxWidth:'20rem'}} />
+<input type="text" placeholder="Name" style={{margin:20,border:'2px solid #F18F0E ',padding:5,background:'#f4f4f4',width:'60%',fontFamily:" 'Poppins', sans-serif",maxWidth:'20rem'}} />
 
-<input type="email" placeholder="Email" style={{margin:20,border:'2px solid #F18F0E ',padding:5,background:'#f4f4f4',width:'40%',fontFamily:" 'Poppins', sans-serif",maxWidth:'20rem'}} />
+<input type="email" placeholder="Email" style={{margin:20,border:'2px solid #F18F0E ',padding:5,background:'#f4f4f4',width:'60%',fontFamily:" 'Poppins', sans-serif",maxWidth:'20rem'}} />
 </div>
 
 <div className="row">
