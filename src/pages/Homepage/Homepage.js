@@ -24,7 +24,7 @@ import C3 from '../../assets/C3.jpg'
 
 const Homepage = () => {
     return (
-        <div style={{width:'100%',overflowX:'hidden'}}>
+        <div style={{width:'100%',overflowX:'hidden',marginBottom:'10vh'}}>
             <Navbar/>
             <Carousal/>
             <First/>
@@ -35,8 +35,8 @@ const Homepage = () => {
 <h1 style={{textAlign:'center'}} >
    
 <WiDayCloudy  size={100} style={{display:'bold',textAlign:'center'}} />
-<br/> 
-    Clubs
+{/* <br/> 
+    Clubs */}
 </h1>
 
 <div style={{marginTop:'10vh'}}>
@@ -59,7 +59,7 @@ const Homepage = () => {
 </div>
 
 
-<Gallery/>
+{/* <Gallery/> */}
 
 <Blogs/>
         </div>
