@@ -1,6 +1,5 @@
 import React from 'react'
 
-import {WiDayCloudy} from 'react-icons/wi'
 
 import C2 from '../../assets/C2.jpg'
 
@@ -82,9 +81,9 @@ style={{textAlign: 'center',width:'20rem', height:'30vh',marginTop:40}}
     //   autoPlay={2000}
     infinite
       animationSpeed={1000}
-      arrowLeft={'.'}
+      arrowLeft={ <IoIosArrowBack size={20} style={{color:'#00a5e3',height:'7vh',width:'3rem',boxShadow:'3px 3px   #00a5e3'}} />}
       arrowLeftDisabled={'.'}
-      arrowRight={ <IoIosArrowForward size={20} style={{color:'#00a5e3',height:'7vh',width:'3rem',boxShadow:'3px 3px   #00a5e3'}} />  }
+      arrowRight={'.' }
       arrowRightDisabled={'.'}
       addArrowClickHandler
       breakpoints={{
