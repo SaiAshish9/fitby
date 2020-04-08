@@ -45,7 +45,7 @@ const data=[
 
 
     return (
-        <div style={{ overflowY: 'hidden',minHeight:'40vh',padding:20,marginTop:'10vh'}}>
+        <div style={{ overflowY: 'hidden',minHeight:'40vh',padding:20,marginTop:'10vh',marginBottom:'-10vh'}}>
 
 
 {/* <h1 style={{textAlign:'center',fontFamily:"'Poppins',sans-serif"}} >
