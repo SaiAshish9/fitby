@@ -60,16 +60,7 @@ const data=[
 <div className='row' style={{width:'100%', minHeight:'40vh'}}>
 
 
-<div className='col-md-3' style={{textAlign:'center'}}  >
 
-<img
-
-src={Blog}
-
-style={{textAlign: 'center',width:'20rem', height:'30vh',marginTop:40}}
-/>
-
-</div>
 
 
 <div className='col-md-9'>
@@ -137,6 +128,8 @@ TRX_admin  __ <span style={{marginLeft:20,fontFamily:"'Poppins',sans-serif"}}>
 
 
 
+
+
 </a>
 
 </div>
@@ -150,6 +143,19 @@ TRX_admin  __ <span style={{marginLeft:20,fontFamily:"'Poppins',sans-serif"}}>
 
 
 </div>
+
+
+<div className='col-md-3' style={{textAlign:'center'}}  >
+
+<img
+
+src={Blog}
+
+style={{textAlign: 'center',width:'20rem', height:'30vh',marginTop:40}}
+/>
+
+</div>
+
 
 </div>
 
