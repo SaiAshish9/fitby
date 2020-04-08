@@ -60,7 +60,16 @@ const data=[
 <div className='row' style={{width:'100%', minHeight:'40vh'}}>
 
 
+<div className='col-md-3' style={{textAlign:'center'}}  >
 
+<img
+
+src={Blog}
+
+style={{textAlign: 'center',width:'20rem', height:'30vh',marginTop:40}}
+/>
+
+</div>
 
 
 <div className='col-md-9'>
@@ -72,7 +81,7 @@ const data=[
     //   autoPlay={2000}
     infinite
       animationSpeed={1000}
-      arrowLeft={ <IoIosArrowBack size={20} style={{color:'#00a5e3',height:'7vh',width:'3rem',boxShadow:'3px 3px   #00a5e3'}} />}
+      arrowLeft={ <IoIosArrowBack size={20} style={{color:'#00a5e3',height:'7vh',width:'3rem',boxShadow:'2px 3px   #00a5e3'}} />}
       arrowLeftDisabled={'.'}
       arrowRight={'.' }
       arrowRightDisabled={'.'}
@@ -128,8 +137,6 @@ TRX_admin  __ <span style={{marginLeft:20,fontFamily:"'Poppins',sans-serif"}}>
 
 
 
-
-
 </a>
 
 </div>
@@ -143,19 +150,6 @@ TRX_admin  __ <span style={{marginLeft:20,fontFamily:"'Poppins',sans-serif"}}>
 
 
 </div>
-
-
-<div className='col-md-3' style={{textAlign:'center'}}  >
-
-<img
-
-src={Blog}
-
-style={{textAlign: 'center',width:'20rem', height:'30vh',marginTop:40}}
-/>
-
-</div>
-
 
 </div>
 
