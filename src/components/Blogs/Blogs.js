@@ -79,17 +79,12 @@ style={{textAlign: 'center',width:'20rem', height:'30vh',marginTop:40}}
 
 
 <Carousel
-      
     //   autoPlay={2000}
       animationSpeed={1000}
-      arrowLeft={<IoIosArrowBack size={20} style={{color:'#00a5e3',height:'7vh',width:'3rem',boxShadow:'2px 3px 3px 2px  #00a5e3'}} />}
-      arrowLeftDisabled={'.'}
-      arrowRight={ <IoIosArrowForward size={20} style={{color:'#00a5e3',height:'7vh',width:'3rem',boxShadow:'2px 3px 3px 3px  #00a5e3'}} />  }
-      arrowRightDisabled={'.'}
-      addArrowClickHandler
+  arrows
       breakpoints={{
         640: {
-          slidesPerPage: 1
+          slidesPerPage: 0.8
                 },
         1200: {
           slidesPerPage: 1
