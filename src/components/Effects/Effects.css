@@ -1,0 +1,11 @@
+@media only screen and (max-width:900px){
+    #large,#large1{
+        display: none!important
+    }
+}
+
+@media only screen and (min-width:900px){
+    #small,#small1{
+        display: none!important
+    }
+}

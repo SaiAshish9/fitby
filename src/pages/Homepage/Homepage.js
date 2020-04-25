@@ -14,6 +14,7 @@ import Blogs from '../../components/Blogs/Blogs'
 
 import Blogs1 from '../../components/Blogs/Blog1'
 
+import Effects from '../../components/Effects/Effects'
 
 import Carousel from '@brainhubeu/react-carousel';
 
@@ -79,6 +80,10 @@ const Homepage = () => {
 <Blogs/>
 
 <Blogs1/>
+
+<Effects/>
+
+
         </div>
     )
 }
