@@ -1,0 +1,11 @@
+#nav1{
+    /* position: fixed; */
+    margin-bottom: 20vh;
+    cursor: pointer;
+    /* z-index: 1; */
+}
+
+#nav1:hover{
+    /* position: fixed; */
+    background:white
+}

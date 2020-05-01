@@ -5,15 +5,22 @@ import Bottom from './pages/Bottom/Bottom'
 
 import {Route,Switch} from 'react-router-dom'
 
+import Gallery from './pages/Gallery/Gallery'
+
+import Yaro from './pages/Yaro/Yaro'
+
+
 import './App.css'
 function App() {
   return (
-<div style={{width: '100%',position: 'absolute',left:0,top:0}}>
+<div >
 
 
 <Switch>
 
-  <Route exact path="/" component={Homepage}/>
+  {/* <Route exact path="/" component={Homepage}/> */}
+  <Route path="/gallery" component={Gallery} />
+  <Route exact path="/" component={Yaro}/>
   <Route  path="/bottom" component={Bottom}/>
   <Route  path="/about" component={Homepage}/>
   <Route  path="/classes" component={Homepage}/>

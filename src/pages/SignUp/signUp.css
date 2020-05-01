@@ -1,0 +1,34 @@
+.signin{
+position: relative;
+animation:slideRight 2s backwards !important;
+}
+
+
+@keyframes slideRight {
+    0%{
+    right:-55%
+    }
+
+    100%{
+right:0;
+}
+}
+
+.signup{
+    position: relative;
+animation:slideLeft 2s forwards !important;
+}
+
+@keyframes slideLeft {
+    0%{
+    left:0
+    }
+
+    100%{
+left:55%;
+}
+}
+
+.hide{
+display:none !important;
+}
